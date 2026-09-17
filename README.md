@@ -4,7 +4,7 @@
 
 # Rust Fix
 
-[![Release](https://img.shields.io/github/v/release/libnudget/rust-fix?logo=github&label=latest)](https://github.com/libnudget/rust-fix/releases)
+[![Release](https://img.shields.io/github/v/release/coccinella-labs/rust-fix?logo=github&label=latest)](https://github.com/coccinella-labs/rust-fix/releases)
 
 Auto-fix Rust code with cargo fmt and clippy.
 
@@ -110,7 +110,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Apply fix
-        uses: libnudget/rust-fix@v1
+        uses: coccinella-labs/rust-fix@v1
         with:
           fixes: all
 ```
